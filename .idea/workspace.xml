@@ -2,72 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb2289-9e6c-400b-8e21-f149069609a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AppCache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DoctrineMigrations/Version20161115100817.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DoctrineMigrations/Version20170119105442.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/translations/messages.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/lift/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/lift/_leaderboard.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/lift/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config_dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config_prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config_test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/symfony_requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Api/RepLogApiModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/LiftController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadReps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/RepLog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Form/Type/RegistrationType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Form/Type/RepLogType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/RepLogRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/upper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/logs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app_dev.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/dumbbell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/lift/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/lift/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/lift/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-606">
-              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+            <state relative-caret-position="550">
+              <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -242,15 +179,16 @@
       <workItem from="1556352889328" duration="4174000" />
       <workItem from="1556369550635" duration="18000" />
       <workItem from="1556369588046" duration="2459000" />
-      <workItem from="1556473539299" duration="315000" />
+      <workItem from="1556473539299" duration="1587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7621000" />
+    <option name="totallyTimeSpent" value="8893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -264,8 +202,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.8039216" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2717087" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -301,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/lift/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-606">
-          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        <state relative-caret-position="550">
+          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
         </state>
       </provider>
     </entry>
