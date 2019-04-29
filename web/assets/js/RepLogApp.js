@@ -1,7 +1,9 @@
 
-(function() {
+(function(window, $) {
 
-    var RepLogApp = {
+    'use strict';
+
+    window.RepLogApp = {
         initialize: function ($wrapper) {
             this.$wrapper = $wrapper;
             Helper.initialize(this.$wrapper);
@@ -64,7 +66,7 @@
     /**
      *  A "private" object
      */
-    var Helper = {
+     var Helper = {
 
         initialize: function ($wrapper) {
             this.$wrapper = $wrapper;
@@ -80,4 +82,4 @@
         },
     };
 
-})();
+})(window, jQuery);
