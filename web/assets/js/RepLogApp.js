@@ -3,23 +3,23 @@
 
     'use strict';
 
-    window.RepLogApp = {
-        initialize: function ($wrapper) {
-            this.$wrapper = $wrapper;
-            this.helper = new Helper(this.$wrapper);
+    window.RepLogApp = function ($wrapper) {
+        this.$wrapper = $wrapper;
+        this.helper = new Helper(this.$wrapper);
 
-            this.$wrapper.find('.js-delete-rep-log').on(
-                'click',
-                this.handleRepLogDelete.bind(this)
-            );
+        this.$wrapper.find('.js-delete-rep-log').on(
+            'click',
+            this.handleRepLogDelete.bind(this)
+        );
 
-            this.$wrapper.find('tbody tr').on(
-                'click',
-                this.handleRowClick.bind(this)
-            );
+        this.$wrapper.find('tbody tr').on(
+            'click',
+            this.handleRowClick.bind(this)
+        );
 
-        },
+    };
 
+    $.extend(window.RepLogApp.prototype, {
         handleRepLogDelete: function (e) {
             e.preventDefault();
 
@@ -47,10 +47,6 @@
             })
         },
 
-        whatIsThis: function (greeting) {
-            console.log(this, greeting);
-        },
-
         handleRowClick: function () {
             console.log('row clicked !');
         },
@@ -61,8 +57,7 @@
                 this.helper.calculateTotalWeight()
             );
         }
-
-    };
+    });
 
     /**
      *  A "private" object
@@ -71,13 +66,16 @@
         this.$wrapper = $wrapper;
     };
 
-    Helper.prototype.calculateTotalWeight = function () {
-        var totalWeight = 0;
-        this.$wrapper.find('tbody tr').each(function () {
-            totalWeight += $(this).data('weight');
-        });
+    $.extend(Helper.prototype, {
+        calculateTotalWeight: function () {
+            var totalWeight = 0;
+            this.$wrapper.find('tbody tr').each(function () {
+                totalWeight += $(this).data('weight');
+            });
 
-        return totalWeight;
-    };
+            return totalWeight;
+        }
+    })
+
 
 })(window, jQuery);
