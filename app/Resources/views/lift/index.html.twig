@@ -21,20 +21,7 @@
                 </thead>
                 <tbody>
                 {% for repLog in repLogs %}
-                    <tr data-weight="{{ repLog.totalWeightLifted }}">
-                        <td>{{ repLog.itemLabel|trans }}</td>
-                        <td>{{ repLog.reps }}</td>
-                        <td>{{ repLog.totalWeightLifted }}</td>
-                        <td>
-                            &nbsp;<a
-                                    href="#"
-                                    class="js-delete-rep-log"
-                                    data-url="{{ path('rep_log_delete', {id: repLog.id}) }}"
-                            >
-                                <span class="fa fa-trash"></span>
-                            </a>
-                        </td>
-                    </tr>
+                    {{ include('lift/_repRow.html.twig') }}
                 {% else %}
                     <tr>
                         <td colspan="4">Get liftin'!</td>
@@ -51,7 +38,9 @@
                 </tfoot>
             </table>
 
-            {{ include('lift/_form.html.twig') }}
+            <div class="js-new-rep-log-form-wrapper">
+                {{ include('lift/_form.html.twig') }}
+            </div>
 
         </div>
         <div class="col-md-5">
