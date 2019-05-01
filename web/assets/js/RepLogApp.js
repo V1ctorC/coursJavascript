@@ -17,6 +17,12 @@
             this.handleRowClick.bind(this)
         );
 
+        this.$wrapper.find('.js-new-rep-log-form').on(
+            'submit',
+            this.handleNewFormSubmit.bind(this)
+        )
+
+
     };
 
     $.extend(window.RepLogApp.prototype, {
@@ -56,6 +62,18 @@
             this.$wrapper.find('.js-total-weight').html(
                 this.helper.calculateTotalWeight()
             );
+        },
+
+        handleNewFormSubmit: function (e) {
+            e.preventDefault();
+
+            var $form = $(e.currentTarget);
+            $.ajax({
+                url: $form.attr('action'),
+                method: 'post',
+                data: $form.serialize()
+            })
+
         }
     });
 
