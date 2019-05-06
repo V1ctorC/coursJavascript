@@ -71,10 +71,14 @@
             e.preventDefault();
 
             var $form = $(e.currentTarget);
+            var formData = {};
+            $.each($form.serializeArray(), function(key, fieldData) {
+                formData[fieldData.name] = fieldData.value;
+            });
             $.ajax({
                 url: $form.data('url '),
                 method: 'post',
-                data: $form.serialize(),
+                data: JSON.stringify(formData),
                 success: function (data) {
                     // todo
                     console.log('Success !');
