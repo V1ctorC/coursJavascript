@@ -81,6 +81,7 @@
                 self._clearForm();
                 self._addRow(data);
             }).catch(function (jqXHR) {
+                console.log(jqXHR);
                 var errorData = JSON.parse(jqXHR.responseText);
                 self._mapErrorsToForm(errorData.errors);
             });
