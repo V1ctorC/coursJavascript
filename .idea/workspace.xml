@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb2289-9e6c-400b-8e21-f149069609a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/assets/js/RepLogApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/RepLogApp.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/assets/js/RepLogApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+            <state relative-caret-position="290">
+              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="238">
+              <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -71,6 +71,7 @@
     <findStrings>
       <find>js-new-rep-log-form-</find>
       <find>load</find>
+      <find>.ajax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,9 +86,9 @@
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/lift/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/LiftController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php" />
         <option value="$PROJECT_DIR$/web/assets/js/RepLogApp.js" />
       </list>
     </option>
@@ -284,12 +285,12 @@
       <workItem from="1557649057547" duration="106000" />
       <workItem from="1557649202407" duration="198000" />
       <workItem from="1557853535515" duration="2661000" />
-      <workItem from="1558289299874" duration="553000" />
+      <workItem from="1558289299874" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31475000" />
+    <option name="totallyTimeSpent" value="32423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -378,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/LiftController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -395,10 +389,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/RepLogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/RepLogApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        <state relative-caret-position="290">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
         </state>
       </provider>
     </entry>
